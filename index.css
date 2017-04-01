@@ -1,0 +1,33 @@
+.heading {
+  font-size: 30px;
+  text-align: center;
+}
+
+.heading .icon {
+  display: none;
+}
+
+.ham {
+  margin-left: 40%;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .ham {display: none;}
+  .heading .icon {
+    float: left;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ham.responsive {
+    padding: 5% 5% 5% 5%;
+    margin-left: 0%;
+    margin-right: 40%;
+    float: none;
+    display: block;
+    text-align: left;
+    background-color: #00aacc;
+  }
+}
